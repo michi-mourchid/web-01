@@ -1,6 +1,22 @@
 {
+  "private": true,
   "dependencies": {
-    "colors": "^1.4.0",
-    "http-server": "^14.0.0"
-  }
+    "colors": "^1.4.0"
+  },
+  "name": "mourchid-meme-ory",
+  "version": "1.0.0",
+  "description": "A memory game based on memes ¯\\(ツ)\\/¯.",
+  "main": "\\",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "scripts": {
+    "test": "\\"
+  },
+  "repository": {
+    "type": "git",
+    "url": "/\\/web-01"
+  },
+  "author": "",
+  "license": "ISC"
 }
