@@ -1,4 +1,5 @@
 // TODO #import-html: use ES default imports to import welcome.html as template
+
 // TODO #export-functions: remove the IIFE
 (function () {
   // TODO #export-functions: export function WelcomeComponent
@@ -41,7 +42,7 @@
   // TODO #class: turn function into a method of WelcomeComponent
   function _startGame(name, size) {
     // TODO #spa: replace with './#game'
-    var gamePage = "./game.html";
+    var gamePage = "./#game";
     // TODO #template-literals:  use template literals (backquotes)
     window.location = gamePage + "?name=" + name + "&size=" + size;
   }
