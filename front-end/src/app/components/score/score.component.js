@@ -1,5 +1,6 @@
-import template from "../views/score.html"
-import { parseUrl } from "./utils";
+import template from "./score.component.html"
+import { parseUrl } from "../../scripts/utils";
+import "./score.component.css";
   // TODO #class: use the ES6 class keyword
   /* class ScoreComponent constructor */
   export function ScoreComponent() {

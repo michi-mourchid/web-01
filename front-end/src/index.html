@@ -3,19 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <title>MÈME ory</title>
-    <!-- TODO #import-css: move style imports to src/main.js -->
-
-    <script>
-      // TODO #shell: remove this line
-      
-    </script>
   </head>
 
   <body>
-    <!-- TODO #shell: declare a div with id='content-outlet' -->
-    <div id="content-outlet" class="h-100 w-100 d-flex flex-column"></div>
-    <!-- TODO #import-js: remove router and main scripts imports -->
-    <!-- TODO #shell: import all js files located in `/src/app/scripts` -->
-  
+    <my-navbar></my-navbar>
+    <section class="overflow-auto flex-grow-1 d-flex flex-column">
+      <div class="container-fluid flex-grow-1">
+        <div id="content-outlet" class="h-100 w-100 d-flex flex-column"></div>
+      </div>
+      <!-- ... -->
+    </section>
+    <my-footer></my-footer>
   </body>
 </html>
